@@ -1,0 +1,366 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:NixieBargraphHat-newparts
+LIBS:nixies-us
+LIBS:NixieBargraphHat-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 3000 3200 0    60   Input ~ 0
+PWM_0
+$Comp
+L R R?
+U 1 1 5BCD535B
+P 3400 3200
+F 0 "R?" V 3480 3200 50  0000 C CNN
+F 1 "100" V 3400 3200 50  0000 C CNN
+F 2 "" V 3330 3200 50  0001 C CNN
+F 3 "" H 3400 3200 50  0001 C CNN
+	1    3400 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5BCD538A
+P 3700 3450
+F 0 "C?" H 3725 3550 50  0000 L CNN
+F 1 "33nF" H 3725 3350 50  0000 L CNN
+F 2 "" H 3738 3300 50  0001 C CNN
+F 3 "" H 3700 3450 50  0001 C CNN
+	1    3700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5BCD53AB
+P 6850 4450
+F 0 "R?" V 6930 4450 50  0000 C CNN
+F 1 "133" V 6850 4450 50  0000 C CNN
+F 2 "" V 6780 4450 50  0001 C CNN
+F 3 "" H 6850 4450 50  0001 C CNN
+	1    6850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5BCD5438
+P 6150 3750
+F 0 "R?" V 6230 3750 50  0000 C CNN
+F 1 "15k" V 6150 3750 50  0000 C CNN
+F 2 "" V 6080 3750 50  0001 C CNN
+F 3 "" H 6150 3750 50  0001 C CNN
+	1    6150 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5BCD54E5
+P 6850 2300
+F 0 "R?" V 6930 2300 50  0000 C CNN
+F 1 "1.47k 2W" V 6750 2300 50  0000 C CNN
+F 2 "" V 6780 2300 50  0001 C CNN
+F 3 "" H 6850 2300 50  0001 C CNN
+	1    6850 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2N7002 Q?
+U 1 1 5BCD5617
+P 6750 4900
+F 0 "Q?" H 6950 4975 50  0000 L CNN
+F 1 "2N7002" H 6950 4900 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6950 4825 50  0001 L CIN
+F 3 "" H 6750 4900 50  0001 L CNN
+	1    6750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5BCD5690
+P 6550 3900
+F 0 "C?" H 6575 4000 50  0000 L CNN
+F 1 "100nF" H 6575 3800 50  0000 L CNN
+F 2 "" H 6588 3750 50  0001 C CNN
+F 3 "" H 6550 3900 50  0001 C CNN
+	1    6550 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L BSP129 Q?
+U 1 1 5C200374
+P 6750 3550
+F 0 "Q?" H 6950 3625 50  0000 L CNN
+F 1 "FDD18N20LZ" H 6950 3550 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2" H 6950 3475 50  0001 L CIN
+F 3 "https://www.digikey.com/product-detail/en/on-semiconductor/FDD18N20LZ/FDD18N20LZCT-ND/3908087" H 6750 3550 50  0001 L CNN
+	1    6750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP6001 U?
+U 1 1 5BCD55A3
+P 5250 3750
+F 0 "U?" H 5250 3950 50  0000 L CNN
+F 1 "MCP6001" H 5250 3550 50  0000 L CNN
+F 2 "" H 5250 3750 50  0001 C CNN
+F 3 "https://www.microchip.com/wwwproducts/en/MCP6001" H 5250 3950 50  0001 C CNN
+	1    5250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C200954
+P 6850 5250
+F 0 "#PWR?" H 6850 5000 50  0001 C CNN
+F 1 "GND" H 6850 5100 50  0000 C CNN
+F 2 "" H 6850 5250 50  0001 C CNN
+F 3 "" H 6850 5250 50  0001 C CNN
+	1    6850 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C200983
+P 5150 4350
+F 0 "#PWR?" H 5150 4100 50  0001 C CNN
+F 1 "GND" H 5150 4200 50  0000 C CNN
+F 2 "" H 5150 4350 50  0001 C CNN
+F 3 "" H 5150 4350 50  0001 C CNN
+	1    5150 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C2009B2
+P 3700 3700
+F 0 "#PWR?" H 3700 3450 50  0001 C CNN
+F 1 "GND" H 3700 3550 50  0000 C CNN
+F 2 "" H 3700 3700 50  0001 C CNN
+F 3 "" H 3700 3700 50  0001 C CNN
+	1    3700 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 6000 4900 0    60   Input ~ 0
+PWM_0_50Hz
+$Comp
+L +170V #PWR?
+U 1 1 5C201CD2
+P 6850 2050
+F 0 "#PWR?" H 6850 1900 50  0001 C CNN
+F 1 "+170V" H 6850 2200 50  0000 C CNN
+F 2 "" H 7100 2100 50  0001 C CNN
+F 3 "" H 7100 2100 50  0001 C CNN
+	1    6850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L IN-9 N?
+U 1 1 5C2015AE
+P 6850 2900
+F 0 "N?" H 6675 3150 45  0000 L BNN
+F 1 "IN-9" H 6850 2900 45  0001 L BNN
+F 2 "nixies-us_IN-9" H 6880 3050 20  0001 C CNN
+F 3 "" H 6850 2900 60  0001 C CNN
+	1    6850 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C202930
+P 4150 4200
+F 0 "#PWR?" H 4150 3950 50  0001 C CNN
+F 1 "GND" H 4150 4050 50  0000 C CNN
+F 2 "" H 4150 4200 50  0001 C CNN
+F 3 "" H 4150 4200 50  0001 C CNN
+	1    4150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 5C202953
+P 4150 2900
+F 0 "#PWR?" H 4150 2750 50  0001 C CNN
+F 1 "+3.3V" H 4150 3040 50  0000 C CNN
+F 2 "" H 4150 2900 50  0001 C CNN
+F 3 "" H 4150 2900 50  0001 C CNN
+	1    4150 2900
+	1    0    0    -1  
+$EndComp
+Text Notes 2150 3450 0    60   ~ 0
+R-Pi Zero GPIO #18 (BCD)
+$Comp
+L D_x2_Serial_AKC D?
+U 1 1 5C202BDD
+P 4150 3800
+F 0 "D?" H 4200 3700 50  0000 C CNN
+F 1 "D_x2_Serial_AKC" H 4150 3900 50  0000 C CNN
+F 2 "" H 4150 3800 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/BAV99235/1727-4311-1-ND/2209921" H 4150 3800 50  0001 C CNN
+	1    4150 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 3750 6850 4300
+Wire Wire Line
+	6850 4600 6850 4700
+Wire Wire Line
+	5550 3750 6000 3750
+Wire Wire Line
+	3550 3200 4800 3200
+Wire Wire Line
+	4800 3200 4800 3650
+Wire Wire Line
+	4800 3650 4950 3650
+Wire Wire Line
+	4950 3850 4800 3850
+Wire Wire Line
+	4800 3850 4800 4150
+Wire Wire Line
+	4800 4150 6850 4150
+Connection ~ 6850 4150
+Wire Wire Line
+	3250 3200 3000 3200
+Wire Wire Line
+	3700 3700 3700 3600
+Wire Wire Line
+	6850 5250 6850 5100
+Wire Wire Line
+	5150 4350 5150 4050
+Wire Wire Line
+	6000 4900 6550 4900
+Wire Wire Line
+	6850 2050 6850 2150
+Wire Wire Line
+	6850 3200 6850 3350
+Wire Wire Line
+	6850 2600 6850 2450
+Wire Wire Line
+	3700 3300 3700 3200
+Connection ~ 3700 3200
+Wire Wire Line
+	4150 2900 4150 3500
+Wire Wire Line
+	4350 3800 4450 3800
+Wire Wire Line
+	4450 3800 4450 3200
+Connection ~ 4450 3200
+Wire Wire Line
+	4150 4200 4150 4100
+Wire Wire Line
+	4150 3000 5800 3000
+Connection ~ 4150 3000
+Wire Wire Line
+	5150 3000 5150 3450
+Wire Wire Line
+	6400 3750 6300 3750
+Wire Wire Line
+	6400 3550 6400 3750
+Wire Wire Line
+	6400 3550 6550 3550
+Wire Wire Line
+	6550 3750 6550 3700
+Wire Wire Line
+	6550 3700 6400 3700
+Connection ~ 6400 3700
+Wire Wire Line
+	6550 4050 6550 4150
+Connection ~ 6550 4150
+$Comp
+L C C?
+U 1 1 5C31D287
+P 5500 3350
+F 0 "C?" H 5525 3450 50  0000 L CNN
+F 1 "0.1uF" H 5525 3250 50  0000 L CNN
+F 2 "" H 5538 3200 50  0001 C CNN
+F 3 "" H 5500 3350 50  0001 C CNN
+	1    5500 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3000 5500 3200
+Connection ~ 5150 3000
+$Comp
+L GND #PWR?
+U 1 1 5C31D35E
+P 5500 3500
+F 0 "#PWR?" H 5500 3250 50  0001 C CNN
+F 1 "GND" H 5500 3350 50  0000 C CNN
+F 2 "" H 5500 3500 50  0001 C CNN
+F 3 "" H 5500 3500 50  0001 C CNN
+	1    5500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5C31D3ED
+P 5800 3350
+F 0 "C?" H 5825 3450 50  0000 L CNN
+F 1 "1uF" H 5825 3250 50  0000 L CNN
+F 2 "" H 5838 3200 50  0001 C CNN
+F 3 "" H 5800 3350 50  0001 C CNN
+	1    5800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C31D47B
+P 5800 3500
+F 0 "#PWR?" H 5800 3250 50  0001 C CNN
+F 1 "GND" H 5800 3350 50  0000 C CNN
+F 2 "" H 5800 3500 50  0001 C CNN
+F 3 "" H 5800 3500 50  0001 C CNN
+	1    5800 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3000 5800 3200
+Connection ~ 5500 3000
+Text Notes 5100 5100 0    60   ~ 0
+R-Pi Zero GPIO #19 (BCD)
+Text GLabel 3350 1850 0    60   Input ~ 0
+N_ENABLE_SUPPLY
+Text Notes 2450 2100 0    60   ~ 0
+R-Pi Zero GPIO #15 (BCD)\n
+$EndSCHEMATC
