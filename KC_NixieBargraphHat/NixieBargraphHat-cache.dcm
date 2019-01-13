@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Raspberry_PI_Zero_Hat
+D Raspberry Pi Zero Hat
+K RPI Zero 
+$ENDCMP
+#
+#End Doc Library

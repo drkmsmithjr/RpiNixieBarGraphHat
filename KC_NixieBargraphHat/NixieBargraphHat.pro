@@ -1,4 +1,4 @@
-update=Sun 23 Dec 2018 03:09:02 PM PST
+update=Sat 12 Jan 2019 08:10:17 PM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../ETANixieClock/ETANixieClock/KC-ETAclock-5v
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -63,3 +63,16 @@ LibName31=contrib
 LibName32=valves
 LibName33=NixieBargraphHat-newparts
 LibName34=nixies-us
+LibName35=ETAclock
+LibName36=ETAclock-cache
+LibName37=/home/mark/Dropbox/personal/SurfnCircuits/NixiePowerSupply/KC_NixieSupply5vTo170vMini/NixieSupply5vto170vDCMBoostMini-cache
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=./
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
