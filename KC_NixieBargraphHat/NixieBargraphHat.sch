@@ -234,29 +234,19 @@ F 3 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/BAV99235/1727-43
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5650 2650 5650 3050
-Wire Wire Line
-	5650 3050 5650 3200
+	5650 2650 5650 3200
 Wire Wire Line
 	5650 3500 5650 3600
 Wire Wire Line
-	4350 2650 4450 2650
+	4350 2650 4800 2650
 Wire Wire Line
-	4450 2650 4800 2650
-Wire Wire Line
-	2350 2100 2500 2100
-Wire Wire Line
-	2500 2100 3250 2100
-Wire Wire Line
-	3250 2100 3600 2100
+	2350 2100 3600 2100
 Wire Wire Line
 	3600 2100 3600 2550
 Wire Wire Line
 	3600 2550 3750 2550
 Wire Wire Line
-	3600 2750 3700 2750
-Wire Wire Line
-	3700 2750 3750 2750
+	3600 2750 3750 2750
 Connection ~ 5650 3050
 Wire Wire Line
 	2050 2100 1800 2100
@@ -271,20 +261,14 @@ Wire Wire Line
 Wire Wire Line
 	5650 950  5650 1050
 Wire Wire Line
-	5650 2100 5650 2150
+	5650 2100 5650 2250
 Wire Wire Line
-	5650 2150 5650 2250
-Wire Wire Line
-	5650 1350 5650 1450
-Wire Wire Line
-	5650 1450 5650 1500
+	5650 1350 5650 1500
 Wire Wire Line
 	2500 2200 2500 2100
 Connection ~ 2500 2100
 Wire Wire Line
-	2950 1300 2950 1800
-Wire Wire Line
-	2950 1800 2950 2400
+	2950 1300 2950 2400
 Wire Wire Line
 	3150 2700 3250 2700
 Wire Wire Line
@@ -293,9 +277,7 @@ Connection ~ 3250 2100
 Wire Wire Line
 	2950 3100 2950 3000
 Wire Wire Line
-	3950 1300 3950 1900
-Wire Wire Line
-	3950 1900 3950 2350
+	3950 1300 3950 2350
 Wire Wire Line
 	5200 2650 5100 2650
 Wire Wire Line
@@ -404,9 +386,7 @@ $EndComp
 Wire Wire Line
 	8850 2150 9400 2150
 Wire Wire Line
-	9400 2000 9400 2150
-Wire Wire Line
-	9400 2150 9400 2350
+	9400 2000 9400 2350
 Wire Wire Line
 	9400 2350 8850 2350
 Connection ~ 9400 2150
@@ -455,9 +435,7 @@ R-Pi Zero GPIO #15 (BCD)\n
 Wire Wire Line
 	9550 4350 9550 4250
 Wire Wire Line
-	9550 4250 9650 4250
-Wire Wire Line
-	9650 4250 9900 4250
+	9550 4250 9900 4250
 Text Notes 9900 4600 0    60   ~ 0
 R-Pi Zero GPIO #18 (BCD)
 Text GLabel 10050 4450 2    60   Input ~ 0
@@ -465,11 +443,7 @@ PWM_0
 Wire Wire Line
 	9100 4850 9250 4850
 Wire Wire Line
-	9250 4550 9250 4850
-Wire Wire Line
-	9250 4850 9250 5350
-Wire Wire Line
-	9250 5350 9250 6000
+	9250 4550 9250 6000
 Wire Wire Line
 	9100 5350 9250 5350
 Connection ~ 9250 4850
@@ -487,11 +461,7 @@ $EndComp
 Wire Wire Line
 	8400 5850 8600 5850
 Wire Wire Line
-	8400 4350 8400 5150
-Wire Wire Line
-	8400 5150 8400 5850
-Wire Wire Line
-	8400 5850 8400 6000
+	8400 4350 8400 6000
 Wire Wire Line
 	8600 5150 8400 5150
 Connection ~ 8400 5850
@@ -512,9 +482,7 @@ $EndComp
 Wire Wire Line
 	9450 4050 9100 4050
 Wire Wire Line
-	9450 3500 9450 3950
-Wire Wire Line
-	9450 3950 9450 4050
+	9450 3500 9450 4050
 Wire Wire Line
 	9100 3950 9450 3950
 Connection ~ 9450 3950
@@ -532,9 +500,7 @@ $EndComp
 Wire Wire Line
 	8600 3950 8350 3950
 Wire Wire Line
-	8350 3500 8350 3950
-Wire Wire Line
-	8350 3950 8350 4750
+	8350 3500 8350 4750
 Wire Wire Line
 	8350 4750 8600 4750
 Connection ~ 8350 3950
@@ -557,9 +523,7 @@ R-Pi Zero GPIO #14 (BCD)
 Text GLabel 9900 3900 2    60   Input ~ 0
 PWM_0_50Hz
 Wire Wire Line
-	3950 1900 4300 1900
-Wire Wire Line
-	4300 1900 4600 1900
+	3950 1900 4600 1900
 $Comp
 L +5V #PWR9
 U 1 1 5C3ADB25
@@ -755,29 +719,19 @@ F 3 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/BAV99235/1727-43
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6000 6000 6000 6400
-Wire Wire Line
-	6000 6400 6000 6550
+	6000 6000 6000 6550
 Wire Wire Line
 	6000 6850 6000 6950
 Wire Wire Line
-	4700 6000 4800 6000
+	4700 6000 5150 6000
 Wire Wire Line
-	4800 6000 5150 6000
-Wire Wire Line
-	2700 5450 2850 5450
-Wire Wire Line
-	2850 5450 3600 5450
-Wire Wire Line
-	3600 5450 3950 5450
+	2700 5450 3950 5450
 Wire Wire Line
 	3950 5450 3950 5900
 Wire Wire Line
 	3950 5900 4100 5900
 Wire Wire Line
-	4100 6100 4050 6100
-Wire Wire Line
-	4050 6100 3950 6100
+	3950 6100 4100 6100
 Wire Wire Line
 	4050 6100 4050 6400
 Connection ~ 6000 6400
@@ -794,20 +748,14 @@ Wire Wire Line
 Wire Wire Line
 	6000 4300 6000 4400
 Wire Wire Line
-	6000 5450 6000 5500
+	6000 5450 6000 5600
 Wire Wire Line
-	6000 5500 6000 5600
-Wire Wire Line
-	6000 4700 6000 4800
-Wire Wire Line
-	6000 4800 6000 4850
+	6000 4700 6000 4850
 Wire Wire Line
 	2850 5550 2850 5450
 Connection ~ 2850 5450
 Wire Wire Line
-	3300 4650 3300 5250
-Wire Wire Line
-	3300 5250 3300 5750
+	3300 4650 3300 5750
 Wire Wire Line
 	3500 6050 3600 6050
 Wire Wire Line
@@ -816,9 +764,7 @@ Connection ~ 3600 5450
 Wire Wire Line
 	3300 6450 3300 6350
 Wire Wire Line
-	4300 4650 4300 5250
-Wire Wire Line
-	4300 5250 4300 5700
+	4300 4650 4300 5700
 Wire Wire Line
 	5550 6000 5450 6000
 Wire Wire Line
@@ -877,9 +823,7 @@ Connection ~ 4650 5250
 Text Notes 2850 7350 0    60   ~ 0
 R-Pi Zero GPIO #6 (BCD)
 Wire Wire Line
-	4300 5250 4650 5250
-Wire Wire Line
-	4650 5250 4950 5250
+	4300 5250 4950 5250
 $Comp
 L +5V #PWR12
 U 1 1 5C3C0002
@@ -893,9 +837,7 @@ F 3 "" H 4300 4650 50  0001 C CNN
 $EndComp
 Connection ~ 4300 5250
 Wire Wire Line
-	9750 3900 9750 4150
-Wire Wire Line
-	9750 4150 9750 4650
+	9750 3900 9750 4650
 Wire Wire Line
 	9750 3900 9900 3900
 Text GLabel 7750 5550 0    60   Input ~ 0
@@ -907,9 +849,7 @@ R-Pi Zero GPIO #6 (BCD)
 Text GLabel 7750 5250 0    60   Input ~ 0
 PWM_1_50Hz
 Wire Wire Line
-	7900 5250 7900 5350
-Wire Wire Line
-	7900 5350 7900 5450
+	7900 5250 7900 5450
 Wire Wire Line
 	7900 5250 7750 5250
 Wire Wire Line
@@ -943,9 +883,7 @@ $EndComp
 Wire Wire Line
 	5450 6400 6000 6400
 Wire Wire Line
-	4050 6400 4800 6400
-Wire Wire Line
-	4800 6400 5150 6400
+	4050 6400 5150 6400
 $Comp
 L R R8
 U 1 1 5C3C2FE6
@@ -1111,9 +1049,7 @@ Wire Wire Line
 	3700 2750 3700 3050
 Connection ~ 3700 2750
 Wire Wire Line
-	3700 3050 4450 3050
-Wire Wire Line
-	4450 3050 4800 3050
+	3700 3050 4800 3050
 $Comp
 L D_x2_Serial_AKC D4
 U 1 1 5C3C67CE
@@ -1178,9 +1114,7 @@ F 3 "" H 8200 5650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7750 5550 7900 5550
-Wire Wire Line
-	7900 5550 8050 5550
+	7750 5550 8050 5550
 Wire Wire Line
 	8350 5550 8600 5550
 Wire Wire Line
@@ -1233,9 +1167,7 @@ F 3 "" H 9400 4450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9550 4450 9850 4450
-Wire Wire Line
-	9850 4450 10050 4450
+	9550 4450 10050 4450
 $Comp
 L R R24
 U 1 1 5C3C8332
@@ -1345,4 +1277,29 @@ Connection ~ 4800 6000
 Wire Wire Line
 	4800 6350 4800 6400
 Connection ~ 4800 6400
+$Comp
+L C C?
+U 1 1 5C3FF84B
+P 3250 1500
+F 0 "C?" H 3275 1600 50  0000 L CNN
+F 1 "1uF" H 3275 1400 50  0000 L CNN
+F 2 "" H 3288 1350 50  0001 C CNN
+F 3 "" H 3250 1500 50  0001 C CNN
+	1    3250 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C3FF921
+P 3250 1650
+F 0 "#PWR?" H 3250 1400 50  0001 C CNN
+F 1 "GND" H 3250 1500 50  0000 C CNN
+F 2 "" H 3250 1650 50  0001 C CNN
+F 3 "" H 3250 1650 50  0001 C CNN
+	1    3250 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1350 2950 1350
+Connection ~ 2950 1350
 $EndSCHEMATC
