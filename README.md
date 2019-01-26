@@ -2,7 +2,7 @@
 
 See [www.surfncircuits.com](http://www.surfncircuits.com) for more information.  This github repository contains the Kicad Schematic, Layout, and Python Library for a PCB Hat that works with the Rasperry Pi Zero, and B+ along with the [Nixie Tube Power Supply](https://wp.me/p85ddV-Ck) designed in a previous [www.surfncircuits.com](http://www.surfncircuits.com) blog.  
 
-![SVG of the Schematic](https://github.com/drkmsmithjr/RpiNixieBarGraphHat/blob/master/KC_NixieBargraphHat/NixieBargraphHat.sch.svg)
+![SVG of the Schematic](https://github.com/drkmsmithjr/RpiNixieBarGraphHat/blob/master/KC_NixieBargraphHat/NixieBargraphHat.svg)
 
 
 __KC_NixieBarGraphHat__:  Kicad schematic, PCB layout, BOM of the HAT.  The footprint is designed to mounted to the top of the Raspberry Pin zero and B+.   When the board is complete it can be orderable at __oshparkcom__.<a href=""></img></a>
