@@ -5,7 +5,7 @@ See [www.surfncircuits.com](http://www.surfncircuits.com) for more information. 
 ![SVG of the Schematic](https://github.com/drkmsmithjr/RpiNixieBarGraphHat/blob/master/KC_NixieBargraphHat/NixieBargraphHat.svg)
 
 
-__KC_NixieBarGraphHat__:  Kicad schematic, PCB layout, BOM of the HAT.  The footprint is designed to mounted to the top of the Raspberry Pin zero and B+.   When the board is complete it can be orderable at __oshparkcom__.<a href=""></img></a>
+__KC_NixieBarGraphHat__:  Kicad schematic, PCB layout, BOM of the HAT.  The footprint is designed to mounted to the top of the Raspberry Pin zero and B+.   When the board is complete it can be orderable at <a href="https://oshpark.com/shared_projects/QQtVVeGg"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
 
 __PythonRpiIN9Nixie__:  The Python Library that can control and the Nixie Bar Graph Hat.   Please see the README file in this submodule and the Blog Entry at [surfncircuits](http://www.surfncircuits.com) for details on how to install the library and how it runs.  
 
