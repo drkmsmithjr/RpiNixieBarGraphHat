@@ -1,0 +1,60 @@
+Source,/home/mark/Dropbox/personal/SurfnCircuits/NixieBarGraphHat/KC_NixieBargraphHat/NixieBargraphHat.sch
+Kicad Rev,Eeschema 4.0.7-e2-6376~61~ubuntu18.04.1
+Generated Date,Tue 12 Feb 2019 10:18:35 PM PST
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,MPN,Library,Library Ref
+R1,1k,RC0805FR-071KL,device,R
+C1,3.3nF,C0805C332KDRACAUTO,device,C
+R4,133,RC0805FR-07133RL,device,R
+R2,8.2k,RC0805FR-078K2L,device,R
+R3,1k 2W,PR02000201001JR500,device,R
+Q2,2N7002,2N7002-TP,transistors,2N7002
+Q1,FDD18N20LZ,FDD18N20LZ,transistors,BSP129
+U1,MCP6411,MCP6411T-E/OT,linear,MCP6001
+N1,IN-9,nixies-us,IN-9
+D1,BAV99,BAV99,235,device,D_x2_Serial_AKC
+C2,0.1uF,C0805C104K3RACTU,device,C
+C3,1uF,CL21F105ZBFNNNE,device,C
+U2,Raspberry_PI_Zero_Header,ETAclock-cache,Raspberry_PI_Zero_Hat
+J1,Screw_Terminal_1x03,1725669,NixieSupply5vto170vDCMBoostMini-cache,Screw_Terminal_1x03
+J2,Screw_Terminal_1x02,1725656,NixieSupply5vto170vDCMBoostMini-cache,Screw_Terminal_1x02
+R5,1k,RC0805FR-071KL,device,R
+C5,3.3nF,C0805C332KDRACAUTO,device,C
+R12,133,RC0805FR-07133RL,device,R
+R9,8.2k,RC0805FR-078K2L,device,R
+R11,1k 2W,PR02000201001JR500,device,R
+Q4,2N7002,2N7002-TP,transistors,2N7002
+Q3,FDD18N20LZ,FDD18N20LZ,transistors,BSP129
+U3,MCP6411,MCP6411T-E/OT,linear,MCP6001
+N2,IN-9,nixies-us,IN-9
+D2,BAV99,BAV99,235,device,D_x2_Serial_AKC
+C6,0.1uF,C0805C104K3RACTU,device,C
+C7,1uF,CL21F105ZBFNNNE,device,C
+R6,1k,RC0805FR-071KL,device,R
+R10,1k,RC0805FR-071KL,device,R
+R8,1k,RC0805FR-071KL,device,R
+R7,1k,RC0805FR-071KL,device,R
+J4,Screw_Terminal_1x03,1725669,NixieSupply5vto170vDCMBoostMini-cache,Screw_Terminal_1x03
+J3,Screw_Terminal_1x03,1725669,NixieSupply5vto170vDCMBoostMini-cache,Screw_Terminal_1x03
+R13,220k,CRGCQ0805F220K,device,R
+R14,220k,CRGCQ0805F220K,device,R
+D3,BAV99,BAV99,235,device,D_x2_Serial_AKC
+D4,BAV99,BAV99,235,device,D_x2_Serial_AKC
+R16,0,device,R
+R17,0,device,R
+R18,NU,device,R
+R15,NU,device,R
+R20,0,device,R
+R21,0,device,R
+R24,NU,device,R
+R22,NU,device,R
+R23,NU,device,R
+R19,0,device,R
+C8,1nF,C0805C102J5HACAUTO,device,C
+C9,1nF,C0805C102J5HACAUTO,device,C
+C4,1uF,CL21F105ZBFNNNE,device,C
