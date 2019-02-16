@@ -1,6 +1,6 @@
 # Nixie Bar Graph Hat for Raspberry Pi Zero
 
-See [www.surfncircuits.com](http://www.surfncircuits.com) for more information.  This github repository contains the Kicad Schematic, Layout, and Python Library for a PCB Hat that works with the Rasperry Pi Zero, and B+ along with the [Nixie Tube Power Supply](https://wp.me/p85ddV-Ck) designed in a previous [www.surfncircuits.com](http://www.surfncircuits.com) blog.  
+See [www.surfncircuits.com](https://wp.me/p85ddV-HQ) for more information.  This github repository contains the Kicad Schematic, Layout, and Python Library for a PCB Hat that works with the Rasperry Pi Zero, and B+ along with the [Nixie Tube Power Supply](https://wp.me/p85ddV-Ck) designed in a previous [www.surfncircuits.com](https://wp.me/p85ddV-HQ) blog.  
 
 ![SVG of the Schematic](https://github.com/drkmsmithjr/RpiNixieBarGraphHat/blob/master/KC_NixieBargraphHat/NixieBargraphHat.svg)
 
