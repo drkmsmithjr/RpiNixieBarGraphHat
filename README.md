@@ -1,6 +1,8 @@
 # Nixie Bar Graph Hat for Raspberry Pi Zero (updated to Part 2)
 
-See [www.surfncircuits.com](https://wp.me/p85ddV-HQ) for more information.  This github repository contains the Kicad Schematic, Layout, and Python Library for a PCB Hat that works with the Rasperry Pi Zero, and B+ along with the [Nixie Tube Power Supply](https://wp.me/p85ddV-Ck) designed in a previous [www.surfncircuits.com](https://wp.me/p85ddV-HQ) blog.  
+This project as described in [www.surfncircuits.com](https://wp.me/p85ddV-HQ) came about because I needed a retro looking linear meter for my espresso maker water tank. I’m always running out of water in my espresso maker, and a cool display letting me know how much water is left and to let me know when to fill it up is definitely needed. In this project, I’ll create a HAT for the Raspberry Pi that can drive two IN-9 or IN-13 linear Nixie tubes. While I’m using this HAT as a single water meter display, this same linear display would be great for showing temperature, bar graphs, audio VU meters, even surf heights by days of the week. The [Nixie Tube Power Supply](https://wp.me/p85ddV-Ck), designed in an earlier blog will work perfectly to drive up to four of the IN-13 Nixie tubes or one IN-9 Nixie tube.
+
+This github repository contains the Kicad Schematic, Layout, and Python Library for a PCB Hat that works with the Rasperry Pi Zero, and B+ along with the [Nixie Tube Power Supply](https://wp.me/p85ddV-Ck) designed in a previous [www.surfncircuits.com](https://wp.me/p85ddV-HQ) blog.  
 
 ![SVG of the Schematic](https://github.com/drkmsmithjr/RpiNixieBarGraphHat/blob/master/KC_NixieBargraphHat/NixieBargraphHat.svg)
 
